@@ -25,7 +25,7 @@ __(function() {
 
 ```
 
-# Installing the service
+## Installing the service
 
 We encourage you to clone the git repository so you can play around
 with the code. 
