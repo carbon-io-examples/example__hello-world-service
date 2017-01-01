@@ -4,7 +4,7 @@ var _o     = carbon.bond._o(module)
 var __     = carbon.fibers.__(module).main
 
 /***************************************************************************************************
- * Test
+ * HelloServiceTest
  */
 __(function() {
   module.exports = o({
@@ -17,12 +17,12 @@ __(function() {
     /***************************************************************************
      * name
      */
-    name: "HelloWorldServiceTest",
+    name: "HelloServiceTest",
 
     /***************************************************************************
      * service
      */
-    service: _o('../lib/HelloWorldService'),
+    service: _o('../lib/HelloService'),
   
     /***************************************************************************
      * tests

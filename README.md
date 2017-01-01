@@ -18,17 +18,13 @@ with the code.
 To run the service:
 
 ```sh
-% node lib/HelloWorldService
-[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service starting...
-[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service creating http server
-[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service listening on port 8888
-[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service started
+% node lib/HelloService
 ```
 
 For cmdline help:
 
 ```sh
-% node lib/HelloWorldService -h
+% node lib/HelloService -h
 ```
 
 To access the ```/hello``` endpoint:
@@ -43,14 +39,7 @@ To access the ```/hello``` endpoint:
 This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory. 
 
 ```
-% node test/HelloWorldServiceTest
-Running HelloWorldServiceTest...
-  [*] GET /hello (40ms)
-  [*] HelloWorldServiceTest (40ms)
-
-Test Report
-[*] Test: HelloWorldServiceTest (40ms)
-  [*] Test: GET /hello (40ms)
+% node test/HelloServiceTest
 ```
 
 or 
