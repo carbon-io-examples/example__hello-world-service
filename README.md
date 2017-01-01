@@ -12,14 +12,18 @@ This example illustrates the use of Carbon.io to implement the simplest possible
 
 To run the service:
 
-```
-% node lib/HelloWorld
+```sh
+% node lib/HelloWorldService
+[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service starting...
+[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service creating http server
+[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service listening on port 8888
+[Sat Dec 31 2016 22:12:16 GMT-0800 (PST)] INFO: Service started
 ```
 
 For cmdline help:
 
-```
-% node lib/HelloWorld -h
+```sh
+% node lib/HelloWorldService -h
 ```
 
 To access the ```/hello``` endpoint:

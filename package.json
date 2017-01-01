@@ -11,7 +11,7 @@
     "carbon-io": "git+ssh://git@github.com:carbon-io/carbon-io.git"
   },
   "scripts": {
-    "test": "node test/Test"
+    "test": "node test/HelloWorldServiceTest"
   },
   "preferGlobal": false
 }
