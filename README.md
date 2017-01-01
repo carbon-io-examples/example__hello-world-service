@@ -5,7 +5,7 @@ simplest possible RESTful web service.
 
 The code defining the service is located in ```lib/HelloService.js```
 and uses a simple ```Endpoint``` object to implement an HTTP ```GET```
-at the path ```/hello```.
+at the path ```/hello```:
 
 ```javascript
 __(function() {
