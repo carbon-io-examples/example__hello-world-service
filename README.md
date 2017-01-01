@@ -2,7 +2,7 @@
 
 This example illustrates the use of Carbon.io to implement the simplest possible RESTful web service. 
 
-## Installing the service
+# Installing the service
 
 ```
 % npm install
@@ -30,6 +30,7 @@ To access the ```/hello``` endpoint:
 
 ```
 % curl localhost:888/hello
+{ msg: "Hello world!" }
 ```
 
 ## Running the unit tests
@@ -37,7 +38,14 @@ To access the ```/hello``` endpoint:
 This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory. 
 
 ```
-% node test/Test
+% node test/HelloWorldServiceTest
+Running HelloWorldServiceTest...
+  [*] GET /hello (40ms)
+  [*] HelloWorldServiceTest (40ms)
+
+Test Report
+[*] Test: HelloWorldServiceTest (40ms)
+  [*] Test: GET /hello (40ms)
 ```
 
 or 
