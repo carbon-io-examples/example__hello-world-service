@@ -4,7 +4,12 @@ This example illustrates the use of Carbon.io to implement the simplest possible
 
 # Installing the service
 
+We encourage you to clone the git repository so you can play around
+with the code. 
+
 ```
+% git clone git@github.com:carbon-io/example__hello-world-service.git
+% cd example__hello-world-service
 % npm install
 ```
 
