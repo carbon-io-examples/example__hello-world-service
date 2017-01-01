@@ -22,7 +22,6 @@ __(function() {
     }
   })
 })
-
 ```
 
 ## Installing the service
