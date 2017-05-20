@@ -73,6 +73,6 @@ or
 ## Generating API documentation (aglio flavor)
 
 ```sh
-% node lib/HelloService generate-static-docs --flavor aglio --out docs/index.html
+% node lib/HelloService gen-static-docs --flavor aglio --out docs/index.html
 ```
 
