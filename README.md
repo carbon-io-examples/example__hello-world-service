@@ -76,3 +76,5 @@ or
 % node lib/HelloService gen-static-docs --flavor aglio --out docs/index.html
 ```
 
+* [View current documentation](
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io/example__hello-world-service/master/docs/index.html)
