@@ -70,8 +70,9 @@ or
 % npm test
 ```
 
-## Generating API documentation
+## Generating API documentation (aglio flavor)
 
 ```sh
+% node lib/HelloService generate-static-docs --flavor aglio --out docs/index.html
 ```
 
