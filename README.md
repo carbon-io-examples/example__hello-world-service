@@ -51,7 +51,7 @@ For cmdline help:
 
 To access the ```/hello``` endpoint:
 
-```
+```sh
 % curl localhost:888/hello
 { msg: "Hello world!" }
 ```
@@ -60,13 +60,18 @@ To access the ```/hello``` endpoint:
 
 This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory. 
 
-```
+```sh
 % node test/HelloServiceTest
 ```
 
 or 
 
-```
+```sh
 % npm test
+```
+
+## Generating API documentation
+
+```sh
 ```
 
