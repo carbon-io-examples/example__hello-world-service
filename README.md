@@ -52,7 +52,7 @@ For cmdline help:
 To access the ```/hello``` endpoint:
 
 ```sh
-% curl localhost:888/hello
+% curl localhost:8888/hello
 { msg: "Hello world!" }
 ```
 
