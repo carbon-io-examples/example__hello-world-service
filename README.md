@@ -1,6 +1,6 @@
 # Hello Service
 
-[![Build Status](https://img.shields.io/travis/carbon-io-examples/example__hello-world-service/carbon-0.7.svg?style=flat-square)](https://travis-ci.org/carbon-io-examples/example__hello-world-service)
+[![Build Status](https://img.shields.io/travis/carbon-io-examples/example__hello-world-service/carbon-0.7.svg?style=flat-square)](https://travis-ci.org/carbon-io-examples/example__hello-world-service) ![Carbon Version](https://img.shields.io/badge/carbon--io-0.7-blue.svg?style=flat-square)
 
 This example illustrates the use of Carbon.io to implement the
 simplest possible RESTful web service.
