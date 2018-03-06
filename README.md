@@ -31,7 +31,7 @@ __(function() {
 ## Installing the service
 
 We encourage you to clone the git repository so you can play around
-with the code. 
+with the code.
 
 ```
 $ git clone -b carbon-0.7 git@github.com:carbon-io-examples/example__hello-world-service.git
@@ -62,13 +62,13 @@ $ curl localhost:8888/hello
 
 ## Running the unit tests
 
-This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory. 
+This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory.
 
 ```sh
 $ node test/HelloServiceTest
 ```
 
-or 
+or
 
 ```sh
 $ npm test
